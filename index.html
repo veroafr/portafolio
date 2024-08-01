@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portafolio - @VEROAFR </title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <i img=""></i>
+                    
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">HABILIDADES</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/veroafr/"><i img=""></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos / Welcome </p>
+                
+                <a href="#portfolio">>> PORTFOLIO</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2><span>➤ Verónica Ferreira </span> </h2>
+            <h4>▼ Estudiante de Analisis y Desarrollo de Sistemas (IFSUL - UTEC)</h4>
+            <p class="descripcion">Actualmente, cursando el <u>3er semestre del curso</u>, estoy motivada a aprender cada día más y a buscar nuevas oportunidades profesionales. Mi perseverancia me impulsa a superar cada desafío académico, y mis estudios son una prioridad que abordo con seriedad y responsabilidad. Estoy comprometida con mejorar continuamente, no solo en mis conocimientos, sino también en mis habilidades y competencias. Además, mantengo siempre una actitud de humildad, reconociendo que siempre hay más por aprender y crecer. Cada paso en este camino educativo es una oportunidad para fortalecer mi carácter y avanzar hacia mis metas profesionales.</p>
+         <center>   <a href="https://www.canva.com/design/DAFyThUeIno/eATXlAIsjpQ72VyfiyxNKw/edit?utm_content=DAFyThUeIno&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">>> Ver Curriculum Vitae<<</a></div></center>
+        </div>
+        
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion"> ➤ HABILIDADES en DESARROLLO </h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Bootstrap</li>
+                    <li>PHP</li>
+                    <li>JavaScript</li>
+
+                </ul>
+                <p>Wordpress & Desarrollo de Templates <br> <u>Nivel:</u> Intermedio.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>JAVA & JAVAFX</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Desarrollo de Software</li>
+                    
+                </ul>
+                <p>Estudiando actualmente <br><u>Nivel:</u> Iniciante.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Base de Datos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>MySQL</li>
+                    <li>Desarrollo</li>
+                </ul>
+                <p>Estudiando actualmente. 
+                    <br>
+                    <u>Nivel:</u> Iniciante.</p>
+            </div>
+      
+        </div>
+    </section>
+
+    
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.jpg" alt="">
+                <div class="info">
+                    <h4>Mi primer calculadora</h4>
+                    <p>HTML, CSS, JAVASCRIPT, BOOTSTRAP</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Adaptacion de juego basado en Mario Bros</h4>
+                    <p>HTML, JAVASCRIPT, CSS</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>CRUD - Repositorio musical </h4>
+                    <p>Interfaz y conexion a base de datos SQL para manipulacion de datos. </p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactar:</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Asunto" class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Portfolio - @VEROAFR </p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/veroafr/"><i class="fa-brands fa-linkedin"></i></a>
+            
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
